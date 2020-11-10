@@ -1,0 +1,2 @@
+rootProject.name='TicketPack'
+include ':app'

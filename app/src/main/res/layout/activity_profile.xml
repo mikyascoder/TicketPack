@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/lltcat"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+
+        android:orientation="horizontal"
+        android:paddingTop="10sp"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/imageView15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tpmenu"
+            />
+
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:gravity="left"
+
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+
+            android:text="Home"
+            android:textStyle="bold"
+            android:textColor="#292727"
+
+            android:textSize="18sp" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/imageView16"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tpsearch"
+            />
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/imageView17"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tpfilter"
+            />
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tpnotification"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lowlin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BD0505"
+        android:orientation="vertical"
+        android:paddingBottom="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/textmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+
+                android:id="@+id/profilehomelin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_home_white_18dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textColor="#FFFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/profilediscovlin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/discovimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/outline_explore_white_18dp" />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discover"
+                    android:textColor="#FFFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileCatagLin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Catagimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_view_module_white_18dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textColor="#FFFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profileProfLin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/profileimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_person_white_18dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:textColor="#FFFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editProfileLin"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="#EFEFEB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lltcat">
+
+        <ImageView
+
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/editp"
+            />
+
+        <TextView
+            android:id="@+id/editProfileTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Edit Profile"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/wishListtLin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#EFEFEB"
+        app:layout_constraintTop_toBottomOf="@+id/boutTicketLin"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/wishListtmg"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/wishlist"/>
+
+        <TextView
+            android:id="@+id/wishListTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Wish List"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/notifictnLin"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+
+        android:background="#EFEFEB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wishListtLin">
+
+        <ImageView
+            android:id="@+id/notifctnImg"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/notifctn" />
+
+        <TextView
+            android:id="@+id/notfctnTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Notification"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/paymentLin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#EFEFEB"
+        app:layout_constraintTop_toBottomOf="@+id/notifictnLin">
+
+        <ImageView
+            android:id="@+id/paymentImg"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/payment" />
+
+        <TextView
+            android:id="@+id/paymentTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Payment Method"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/boutTicketLin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#EFEFEB"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileLin"
+        tools:layout_editor_absoluteX="60dp">
+
+        <ImageView
+            android:id="@+id/boughtTiktmg"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/boughtkt" />
+
+        <TextView
+            android:id="@+id/BoughtTktTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Bought Ticket"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

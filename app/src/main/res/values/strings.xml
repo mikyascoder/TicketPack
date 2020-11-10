@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TicketPack</string>
+    <string-array name="Payment_method">
+        <item> CBE Birr </item>
+        <item> Amole </item>
+        <item> Hello Cash </item>
+
+    </string-array>
+
+    <string-array name="Ticket_Type">
+        <item> Regular </item>
+        <item> VIP </item>
+        <item> VVIP </item>
+    </string-array>
+
+    <string-array name="Position">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+
+    </string-array>
+
+    <string-array name="cities">
+        <item> Addis Ababa </item>
+        <item> Adama </item>
+        <item> Awasa </item>
+        <item> Debre zeit </item>
+        <item> Dire dawa </item>
+        <item> Gondar </item>
+        <item> Jijiga </item>
+        <item> Harar </item>
+        <item> Mekele </item>
+        <item> Semera </item>
+
+
+    </string-array>
+
+
+</resources>
